@@ -1,4 +1,5 @@
 import streamlit as st
+st.write('我們的組名:翔ㄍㄡ 第11組')
 
 car_simulation = {'gas_warning':1, 'speed_limit':100, 'temp_warning':30, '轉速':12000}
 gas = st.number_input('油量的資料收集:油箱滿是10格 =>')
