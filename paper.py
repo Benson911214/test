@@ -1,9 +1,9 @@
 import streamlit as st
 user1 = st.number_input("請輸入：剪刀：（0）、石頭（1）、布（2）->")
 from Github import Image
-image 0= Image.open(https://github.com/Benson911214/test/blob/main/%E4%B8%8B%E8%BC%89.png?raw=true)
-image 1= Image.open(https://github.com/Benson911214/test/blob/main/%E4%B8%8B%E8%BC%89%20(2).png?raw=true)
-image 2= Image.open(https://github.com/Benson911214/test/blob/main/%E4%B8%8B%E8%BC%89%20(1).png?raw=true)
+image = Image.open(https://github.com/Benson911214/test/blob/main/%E4%B8%8B%E8%BC%89.png?raw=true)
+image = Image.open(https://github.com/Benson911214/test/blob/main/%E4%B8%8B%E8%BC%89%20(2).png?raw=true)
+image = Image.open(https://github.com/Benson911214/test/blob/main/%E4%B8%8B%E8%BC%89%20(1).png?raw=true)
 import random
 computer = random.randint(0,2)
 if user1 == computer:
