@@ -1,3 +1,4 @@
+import streamlit as st
 user1 = st.number_input("請輸入：剪刀：（0）、石頭（1）、布（2）->")
 import random
 computer = random.randint(0,2)
