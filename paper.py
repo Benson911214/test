@@ -61,8 +61,6 @@ if confirm_input:
         st.write("隨機生成數字為：0");
         from PIL import Image
         img = Image.open('下載 (2).png')
-        from PIL import Image
-        img = Image.open('下載.png')
         st.image(img)
         st.write(("恭喜你贏啦！"));
     elif user1 == 1 and computer == 2:
